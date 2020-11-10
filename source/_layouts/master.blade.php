@@ -59,7 +59,7 @@
                 </li>
 
                 <li>
-                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>. Hosted by <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Netlify</a>.
+                    Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>. Hosted by <a href="https://netlify.com" title="The fastest way to build the fastest sites">Netlify</a>.
                 </li>
             </ul>
 
