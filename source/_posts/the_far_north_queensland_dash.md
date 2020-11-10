@@ -8,7 +8,7 @@ cover_image: /assets/img/featured/oscar-aguilar-327500.jpg
 
 Spent a little time this evening putting together something of a presence for my [2018 cycling challenge](https://philstephens.io/2018).  First up - a cheeky bit of branding.  It certainly won't be winning any awards, but to me giving the challenge a logo has made things a little bit more legit in my mind.
 
-![](/assets/img/fnq-logo-1.png)
+![](/assets/img/fnq-logo-1.png) {.half}
 
 A lot of the details are still up in the air (I'm already considering shifting the timing from August to November, which means it will be after my 40th birthday), and I'll probably update the logo at some point, but for now I give you the Far North Queensland Dash - Coolangatta to Cape York.
 

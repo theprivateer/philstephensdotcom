@@ -1,1 +1,12 @@
 // Your custom blog styles here
+
+img
+{
+    &.half
+    {
+        margin-left: auto;
+        margin-right: auto;
+        @apply .text-center;
+        @apply .w-1/2;
+    }
+}
