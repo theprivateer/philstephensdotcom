@@ -6,7 +6,7 @@ return [
     'baseUrl' => '',
     'production' => false,
     'siteName' => 'Phil Stephens',
-    'siteDescription' => 'Generate an elegant blog with Jigsaw',
+    'siteDescription' => 'Personal website of Phil Stephens',
     'siteAuthor' => 'Phil Stephens',
 
     // collections
@@ -14,10 +14,10 @@ return [
         'posts' => [
             'author' => 'Phil Stephens', // Default author, if not provided in a post
             'sort' => '-date',
-            'path' => 'blog/{filename}',
+            'path' => 'blog/{date|Y/m}/{_filename}',
         ],
         'categories' => [
-            'path' => '/blog/categories/{filename}',
+            'path' => '/blog/categories/{_filename}',
             'posts' => function ($page, $allPosts) {
                 return $allPosts->filter(function ($post) use ($page) {
                     return $post->categories ? in_array($page->getFilename(), $post->categories, true) : false;
