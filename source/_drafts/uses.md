@@ -17,7 +17,7 @@ Hosting
 Netlify
 Digital Ocean
 Laravel Forge
-
+ 
 
 iOS
 iphone and ipad
