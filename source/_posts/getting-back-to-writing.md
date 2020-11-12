@@ -13,6 +13,6 @@ I want something that was easy to maintain and cheap to host. The previous incar
 
 This time round I wanted to take a similar approach, but go for a static site generator.  There are heaps of options out there, but as a PHP (and Laravel) developer I naturally gravitated towards [Jigsaw](https://jigsaw.tighten.co/), the static site generator from [Tighten](https://tighten.co/).  Since all of my content was already in separate Markdown files, all backed up on Dropbox, it was a simple task to repurpose some of the front-matter in the documents and rebuild the new site using one of Jigsaw's default templates.
 
-For hosting I have opted (so far) for [Netlify](https://www.netlify.com/), as I can build the site on commit to Github - for what I need at the moment my Netlify hosting is free, but that may change as I expand the site.
+For hosting I have opted (so far) for [Netlify](https://www.netlify.com/), as I can build the site on push to Github - for what I need at the moment my Netlify hosting is free, but that may change as I expand the site.
 
 All that is left for me to do now is cleanup some of the dead links in some of my older posts ([drop me a line](/contact) if you find any!), start playing with the website templates and, perhaps most importantly, start writing again. 
