@@ -4,7 +4,6 @@ section: content
 date: 2020-11-12
 title: Getting back to writing
 cover_image: /assets/img/featured/pedro-araujo-ZG4Tz-ivLb8-unsplash.jpg
-featured: true
 ---
 
 Earlier this year whilst idly searching for domain at work I discovered that **philstephens.com** was available.  I promptly snatched it up, and recently decided it was time to resurrect the blog that I used to host at an old domain.
