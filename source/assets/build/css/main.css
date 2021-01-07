@@ -522,7 +522,7 @@ ul {
  */
 
 html {
-  font-family: Nunito Sans; /* 1 */
+  font-family: Open Sans; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -730,20 +730,20 @@ a {
   font-weight: 600;
   text-decoration: none;
   --text-opacity: 1;
-  color: #3182ce;
-  color: rgba(49, 130, 206, var(--text-opacity));
+  color: #dd6b20;
+  color: rgba(221, 107, 32, var(--text-opacity));
 }
 
 a:hover {
   --text-opacity: 1;
-  color: #2c5282;
-  color: rgba(44, 82, 130, var(--text-opacity));
+  color: #9c4221;
+  color: rgba(156, 66, 33, var(--text-opacity));
 }
 
 blockquote {
   --border-opacity: 1;
-  border-color: #63b3ed;
-  border-color: rgba(99, 179, 237, var(--border-opacity));
+  border-color: #f6ad55;
+  border-color: rgba(246, 173, 85, var(--border-opacity));
   border-left-width: 4px;
   font-weight: 400;
   font-style: italic;
@@ -792,6 +792,7 @@ h6 {
   --text-opacity: 1;
   color: #1a202c;
   color: rgba(26, 32, 44, var(--text-opacity));
+  font-family: Roboto Slab;
 }
 
 h1:first-child,
@@ -836,8 +837,8 @@ h6 {
 hr {
   border-bottom-width: 1px;
   --border-opacity: 1;
-  border-color: #bee3f8;
-  border-color: rgba(190, 227, 248, var(--border-opacity));
+  border-color: #edf2f7;
+  border-color: rgba(237, 242, 247, var(--border-opacity));
   margin-top: 3rem;
   margin-bottom: 3rem;
   border-radius: 9999px;
@@ -898,8 +899,8 @@ pre code {
 
 ::-moz-selection {
   --bg-opacity: 1;
-  background-color: #4299e1;
-  background-color: rgba(66, 153, 225, var(--bg-opacity));
+  background-color: #ed8936;
+  background-color: rgba(237, 137, 54, var(--bg-opacity));
   --text-opacity: 1;
   color: #fff;
   color: rgba(255, 255, 255, var(--text-opacity));
@@ -907,8 +908,8 @@ pre code {
 
 ::selection {
   --bg-opacity: 1;
-  background-color: #4299e1;
-  background-color: rgba(66, 153, 225, var(--bg-opacity));
+  background-color: #ed8936;
+  background-color: rgba(237, 137, 54, var(--bg-opacity));
   --text-opacity: 1;
   color: #fff;
   color: rgba(255, 255, 255, var(--text-opacity));
@@ -11240,11 +11241,11 @@ img.half {
 }
 
 .font-sans{
-  font-family: Nunito Sans;
+  font-family: Open Sans;
 }
 
 .font-serif{
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: Roboto Slab;
 }
 
 .font-mono{
@@ -33501,11 +33502,11 @@ img.half {
   }
 
   .sm\:font-sans{
-    font-family: Nunito Sans;
+    font-family: Open Sans;
   }
 
   .sm\:font-serif{
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Roboto Slab;
   }
 
   .sm\:font-mono{
@@ -55671,11 +55672,11 @@ img.half {
   }
 
   .md\:font-sans{
-    font-family: Nunito Sans;
+    font-family: Open Sans;
   }
 
   .md\:font-serif{
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Roboto Slab;
   }
 
   .md\:font-mono{
@@ -77841,11 +77842,11 @@ img.half {
   }
 
   .lg\:font-sans{
-    font-family: Nunito Sans;
+    font-family: Open Sans;
   }
 
   .lg\:font-serif{
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Roboto Slab;
   }
 
   .lg\:font-mono{
@@ -100011,11 +100012,11 @@ img.half {
   }
 
   .xl\:font-sans{
-    font-family: Nunito Sans;
+    font-family: Open Sans;
   }
 
   .xl\:font-serif{
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: Roboto Slab;
   }
 
   .xl\:font-mono{

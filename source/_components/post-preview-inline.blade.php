@@ -3,7 +3,7 @@
         {{ $post->getDate()->format('F j, Y') }}
     </p>
 
-    <h2 class="text-3xl mt-0">
+    <h2 class="text-3xl mt-0 font-serif">
         <a
             href="{{ $post->getUrl() }}"
             title="Read more - {{ $post->title }}"
@@ -17,5 +17,5 @@
         href="{{ $post->getUrl() }}"
         title="Read more - {{ $post->title }}"
         class="uppercase font-semibold tracking-wide mb-2"
-    >Read</a>
+    >Read More</a>
 </div>

@@ -5,13 +5,9 @@
 @endphp
 
 @section('body')
-    <p class="border-2 border-blue-200 mb-10 p-4">This is an archived post from a previous incarnation of my blog.  It is most likely out of date and with broken links, but I like keeping it around for nostalgic reasons.</p>
+    <p class="bg-orange-500 text-white mb-10 p-4">This is an archived post from a previous incarnation of my blog.  It is most likely out of date and with broken links, but I like keeping it around for nostalgic reasons.</p>
 
-    {{--@if ($page->cover_image)--}}
-        {{--<img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">--}}
-    {{--@endif--}}
-
-    <h1 class="leading-none mb-2">{{ $page->title }}</h1>
+    <h1 class="leading-none font-serif mb-2">{{ $page->title }}</h1>
 
     <p class="text-gray-700 text-xl md:mt-0">{{ date('F j, Y', $page->date) }}</p>
 
@@ -32,15 +28,15 @@
     <nav class="flex justify-between text-sm md:text-base">
         <div>
             @if ($next = $page->getNext())
-                <a href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
+                <a href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}" class="font-normal">
                     &LeftArrow; {{ $next->title }}
                 </a>
             @endif
         </div>
 
-        <div>
+        <div class="text-right">
             @if ($previous = $page->getPrevious())
-                <a href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
+                <a href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}" class="font-normal">
                     {{ $previous->title }} &RightArrow;
                 </a>
             @endif

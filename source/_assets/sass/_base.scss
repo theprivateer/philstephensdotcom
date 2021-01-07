@@ -5,15 +5,15 @@ body {
 a {
     @apply .font-semibold;
     @apply .no-underline;
-    @apply .text-blue-600;
+    @apply .text-orange-600;
 
     &:hover {
-        @apply .text-blue-800;
+        @apply .text-orange-800;
     }
 }
 
 blockquote {
-    @apply .border-blue-400;
+    @apply .border-orange-400;
     @apply .border-l-4;
     @apply .font-normal;
     @apply .italic;
@@ -53,6 +53,7 @@ h6 {
     @apply .mb-4;
     @apply .mt-8;
     @apply .text-gray-900;
+    @apply .font-serif;
 
     &:first-child {
         @apply .mt-0;
@@ -91,7 +92,7 @@ h6 {
 
 hr {
     @apply .border-b;
-    @apply .border-blue-200;
+    @apply .border-gray-200;
     @apply .my-12;
     @apply .rounded-full;
 }
@@ -143,6 +144,6 @@ pre {
 }
 
 ::selection {
-    @apply .bg-blue-500;
+    @apply .bg-orange-500;
     @apply .text-white;
 }

@@ -16,7 +16,7 @@ Jigsaw's event listeners allow you to hook into key points of the build and run 
 
 For the image manipulation we'll be using [Intervention Image](http://image.intervention.io/) library, so pull that into your project using Composer:
 
-```
+```bash
 composer require intervention/image
 ```
 

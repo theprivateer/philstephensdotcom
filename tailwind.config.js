@@ -26,7 +26,10 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
-          'Nunito Sans'
+          'Open Sans'
+        ],
+        serif: [
+          'Roboto Slab'
         ],
         mono: [
           'monospace',
