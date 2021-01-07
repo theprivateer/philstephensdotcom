@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://philstephens.test',
     'production' => false,
     'siteName' => 'Phil Stephens',
     'siteDescription' => 'Personal website of Phil Stephens',
@@ -14,7 +14,17 @@ return [
         'posts' => [
             'author' => 'Phil Stephens', // Default author, if not provided in a post
             'sort' => '-date',
-            'path' => 'blog/{date|Y/m}/{_filename}',
+            'path' => 'blog/{_filename}',
+        ],
+        'dev' => [
+            'author' => 'Phil Stephens', // Default author, if not provided in a post
+            'sort' => '-date',
+            'path' => 'dev/{_filename}',
+        ],
+        'archive' => [
+            'author' => 'Phil Stephens', // Default author, if not provided in a post
+            'sort' => '-date',
+            'path' => 'archive/{_filename}',
         ],
         'categories' => [
             'path' => '/blog/categories/{_filename}',
@@ -58,6 +68,9 @@ return [
             : $cleaned;
     },
     'isActive' => function ($page, $path) {
+
+        if(Str::startsWith(trimPath($page->getPath()),  trimPath($path))) return true;
+
         return Str::endsWith(trimPath($page->getPath()), trimPath($path));
     },
 ];

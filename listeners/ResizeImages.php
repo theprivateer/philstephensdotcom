@@ -9,6 +9,8 @@ class ResizeImages
 {
 	public function handle(Jigsaw $jigsaw)
 	{
+	    return;
+
 		// Cycle through all images in $jigsaw->getDestinationPath() . '/assets/img'
 		// Construct the iterator
 		$it = new \RecursiveDirectoryIterator($jigsaw->getDestinationPath() . '/assets/img');

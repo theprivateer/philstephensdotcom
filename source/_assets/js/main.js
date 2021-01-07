@@ -1,8 +1,8 @@
-window.axios = require('axios');
-window.fuse = require('fuse.js');
-window.Vue = require('vue');
+// window.axios = require('axios');
+// window.fuse = require('fuse.js');
+// window.Vue = require('vue');
 
-import Search from './components/Search.vue';
+// import Search from './components/Search.vue';
 import hljs from 'highlight.js/lib/highlight';
 
 // Syntax highlighting
@@ -20,11 +20,11 @@ document.querySelectorAll('pre code').forEach((block) => {
     hljs.highlightBlock(block);
 });
 
-Vue.config.productionTip = false;
+// Vue.config.productionTip = false;
 
-new Vue({
-    components: {
-        Search,
-    },
-}).$mount('#vue-search');
+// new Vue({
+//     components: {
+//         Search,
+//     },
+// }).$mount('#vue-search');
 

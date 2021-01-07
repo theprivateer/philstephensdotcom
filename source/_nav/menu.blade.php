@@ -4,10 +4,20 @@
         Blog
     </a>
 
-    <a title="{{ $page->siteName }} About" href="/about"
-        class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/about') ? 'active text-blue-600' : '' }}">
-        About
+    <a title="{{ $page->siteName }} Dev" href="/dev"
+       class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/dev') ? 'active text-blue-600' : '' }}">
+        Dev
     </a>
+
+    <a title="{{ $page->siteName }} Archive" href="/archive"
+       class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/archive') ? 'active text-blue-600' : '' }}">
+        Archive
+    </a>
+
+    {{--<a title="{{ $page->siteName }} About" href="/about"--}}
+        {{--class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/about') ? 'active text-blue-600' : '' }}">--}}
+        {{--About--}}
+    {{--</a>--}}
 
     <a title="{{ $page->siteName }} Contact" href="/contact"
         class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/contact') ? 'active text-blue-600' : '' }}">

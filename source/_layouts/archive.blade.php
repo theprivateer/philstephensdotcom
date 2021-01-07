@@ -5,6 +5,8 @@
 @endphp
 
 @section('body')
+    <p class="border-2 border-blue-200 mb-10 p-4">This is an archived post from a previous incarnation of my blog.  It is most likely out of date and with broken links, but I like keeping it around for nostalgic reasons.</p>
+
     {{--@if ($page->cover_image)--}}
         {{--<img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">--}}
     {{--@endif--}}
@@ -13,15 +15,15 @@
 
     <p class="text-gray-700 text-xl md:mt-0">{{ date('F j, Y', $page->date) }}</p>
 
-    @if ($page->categories)
-        @foreach ($page->categories as $i => $category)
-            <a
-                href="{{ '/blog/categories/' . $category }}"
-                title="View posts in {{ $category }}"
-                class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
-            >{{ $category }}</a>
-        @endforeach
-    @endif
+    {{--@if ($page->categories)--}}
+        {{--@foreach ($page->categories as $i => $category)--}}
+            {{--<a--}}
+                {{--href="{{ '/blog/categories/' . $category }}"--}}
+                {{--title="View posts in {{ $category }}"--}}
+                {{--class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"--}}
+            {{-->{{ $category }}</a>--}}
+        {{--@endforeach--}}
+    {{--@endif--}}
 
     <div class="border-b border-blue-200 mb-10 pb-4" v-pre>
         @yield('content')
