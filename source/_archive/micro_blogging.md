@@ -3,8 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-06-26
 title: Micro-blogging
-cover_image: /assets/img/rawpixel-com-274862.jpg
-categories: [products]
 ---
 
 Blogging is hard - at least, it is for me.  I much prefer the micro-blog format - short, to-the-point posts with no title.  Like Twitter, but without the strict 140 character limit and all of the _noise_ of Twitter.  There's no real self-hosted solutions out there, other than particular themes for the likes of WordPress, so a few months ago I decided to hack something together.  The concept behind it wasn't perfectly formed, but I wanted a system where I could quickly post something in a sort of timeline format, and have some of the neat features of social networking such as hashtags and location. And it had to support Markdown (BIG fan of Markdown these days) as well as the single hero image format of Instagram (before Instagram added support for multiple images).

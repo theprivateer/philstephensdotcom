@@ -3,15 +3,13 @@ extends: _layouts.archive
 section: content
 date: 2017-07-30
 title: Building a Dictionary of Domain Names - Part 2
-cover_image: /assets/img/featured/mikhail-pavstyuk-8436.jpg
-categories: [coding]
 ---
 
-[Previously I discussed a little hobby project](https://philstephens.io/building-a-dictionary-of-domain-names) that I was working on to build out a dictionary of words that could be made into complete domain names (i.e. the whole domain, including the TLD extension, forms the word).
+[Previously I discussed a little hobby project](https://philstephens.com/archive/building-a-dictionary-of-domain-names) that I was working on to build out a dictionary of words that could be made into complete domain names (i.e. the whole domain, including the TLD extension, forms the word).
 
 I went through the process of importing a public domain English dictionary, scraping a list of available TLD extensions from my registrar of choice (Amazon Web Services) and then building out a list of possible domains.
 
-I was looking at was to check domain availability via the AWS Route53 API, but discovered the throttling and rate limits made it prohibitively slow for batch processing.  On discovering the [Domainr API](https://domainr.build/), I put together [a PHP wrapper](https://philstephens.io/new-package-domainr-api-wrapper-for-php) to make things a little more fluent - now it's time to build that into my dictionary app.
+I was looking at was to check domain availability via the AWS Route53 API, but discovered the throttling and rate limits made it prohibitively slow for batch processing.  On discovering the [Domainr API](https://domainr.build/), I put together [a PHP wrapper](https://philstephens.com/archive/new-package-domainr-api-wrapper-for-php) to make things a little more fluent - now it's time to build that into my dictionary app.
 
 ## Checking Domain Availability
 

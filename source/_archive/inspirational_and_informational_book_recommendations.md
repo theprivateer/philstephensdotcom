@@ -3,8 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-07-20
 title: "Inspirational and Informational: Book Recommendations"
-cover_image: /assets/img/featured/glen-noble-18012.jpg
-categories: [books]
 ---
 
 I used to be a fairly prolific reader of books, regularly devouring entire texts in a single sitting.  More recently though my reading has suffered as the forces of work, family and health (and Netflix) have all vied for my attention.
@@ -17,7 +15,7 @@ I had a number of non-fiction books on my hit-list and I'm glad to say between [
 
 ![](/assets/img/books/remote_front.png)
 
-Since starting my [new remote role](https://philstephens.io/working-remotely) I have been particularly interested in improving the way in which we work.  Whilst the company is completely distributed across Australia, the culture and processes to support this are still not optimal.  I had previously read [Getting Real](https://gettingreal.37signals.com/) and [REWORK](https://37signals.com/rework) by the guys at 37signals and was really interested by their take on remote working.
+Since starting my [new remote role](https://philstephens.com/archive/working-remotely) I have been particularly interested in improving the way in which we work.  Whilst the company is completely distributed across Australia, the culture and processes to support this are still not optimal.  I had previously read [Getting Real](https://gettingreal.37signals.com/) and [REWORK](https://37signals.com/rework) by the guys at 37signals and was really interested by their take on remote working.
 
 The short essay-based format made for an accessible read, and whilst I think a few of the scenarios were a little half-baked, overall it was a great primer for creating a remote culture within an organisation.  I know that Fried and his colleagues have continued to write a lot about the remote culture over at 37signals [on their blog](https://m.signalvnoise.com/), and in many ways I feel that REMOTE is a great gateway into that. 
 
@@ -40,7 +38,7 @@ Similar to REMOTE, this book was set out across a number of short essays on subj
 
 So much of the unadulterated passion that the author and his co-founder have for their business is encapsulated in these pages, with much of their advice flying in the face of _conventional_ business wisdom ("Be a selfish bastard and ignore advice", "Don't waste your time on bullshit business plans" and "Get people to hate you" to name but a few from just the first chapter!).  That being said, when framed in the context of their business and how it has developed, it all makes perfect sense.
 
-I've said before that [I am not an entrepreneur](https://philstephens.io/confessions-of-a-serial-creator) - but the advice, stories and general call to arms in this book has gotten me genuinely excited about the prospect of running a business.  Also, the title of the first essay - and probably the defining theme of the entire book (and the BrewDog business) - is extremely evocative:
+I've said before that [I am not an entrepreneur](https://philstephens.com/archive/confessions-of-a-serial-creator) - but the advice, stories and general call to arms in this book has gotten me genuinely excited about the prospect of running a business.  Also, the title of the first essay - and probably the defining theme of the entire book (and the BrewDog business) - is extremely evocative:
 
 > Don't start a business, start a crusade.
 

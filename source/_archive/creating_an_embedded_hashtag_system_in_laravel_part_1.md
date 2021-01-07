@@ -3,8 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-07-18
 title: Creating an embedded hashtag system in Laravel - Part 1
-cover_image: /assets/img/featured/hashtag_locomedia.jpg
-categories: [coding]
 ---
 
 One of the neat little features of my homegrown microblogging platform is that is has a nifty hashtag autocomplete system like you can find on Twitter and Instagram - you hit the `#` key and as you continue typing, suggestions of existing tags appear in a dropdown menu.
@@ -351,4 +349,4 @@ public static function boot()
 
 Now that we have the embedded hashtag system working on the backend we can work on building the frontend implementation. In my next post we'll look at building out the autocomplete/suggestion UI.
 
-**Part 2 of this tutorial can be found at [Creating an embedded hashtag system in Laravel - Part 2](https://philstephens.io/creating-an-embedded-hashtag-system-in-laravel-part-2).** 
+**Part 2 of this tutorial can be found at [Creating an embedded hashtag system in Laravel - Part 2](https://philstephens.com/archive/creating-an-embedded-hashtag-system-in-laravel-part-2).** 

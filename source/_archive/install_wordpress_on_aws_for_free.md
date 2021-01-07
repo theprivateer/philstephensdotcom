@@ -3,7 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-06-29
 title: Install Wordpress on AWS (for free)
-cover_image: /assets/img/featured/thomas-kvistholt-191153.jpg
 ---
 
 Whilst I'm gradually building out my own blogging platform to meet my specific needs, I still regularly have to spin up and maintain WordPress installations (both at [my previous role at iSeekplant](https://www.iseekplant.com.au/blog) and at my new gig at [Databee](https://databee.com.au)).  As more and more businesses move to 'the cloud', it's becoming increasingly typical to host blogs on infrastructures such as [Amazon Web Services](https://aws.amazon.com) and [DigitalOcean](https://www.digitalocean.com/).  DigitalOcean have more or less got you covered with one-click installers to spin up new server instances with everything ready to go, and AWSs slightly more consumer-friendly [Amazon Lightsail](https://amazonlightsail.com/) has similar offerings at a comparable price-point.  However if you're prepared to get your hands a little greasy and bypass the Lightsail interface you can take advantage of [AWSs free usage tier](https://aws.amazon.com/free/).

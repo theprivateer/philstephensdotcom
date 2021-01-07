@@ -3,11 +3,9 @@ extends: _layouts.archive
 section: content
 date: 2017-07-28
 title: "New Package: Domainr API wrapper for PHP"
-cover_image: /assets/img/featured/samuel-zeller-118195.jpg
-categories: [coding, packages]
 ---
 
-Following on from my [little side-project](http://domaindictionary.cloudstage.me/) from [a couple of days ago](https://philstephens.io/building-a-dictionary-of-domain-names) I wanted to be able to dynamically check the availability of a given domain.  Originally I planned to use the AWS Route53 API as I was already familiar with it, but after a couple of tests with it I found that I would very quickly have my API connection throttled as I approached some very meager rate limits - not ideal if I planned to get the status of domains in batches in scheduled jobs.
+Following on from my [little side-project](http://domaindictionary.cloudstage.me/) from [a couple of days ago](https://philstephens.com/archive/building-a-dictionary-of-domain-names) I wanted to be able to dynamically check the availability of a given domain.  Originally I planned to use the AWS Route53 API as I was already familiar with it, but after a couple of tests with it I found that I would very quickly have my API connection throttled as I approached some very meager rate limits - not ideal if I planned to get the status of domains in batches in scheduled jobs.
 
 After a little research I came across a service called [Domainr](https://domainr.com/).  Their [Developer API](https://domainr.build/) is clean and simple and exactly what I was looking for.  After a number of dry runs using Guzzle to make API calls I decided to quickly put together a package to wrap Domainr API with some simple syntax, and add some sugar to some of the responses.  It still needs a test suite written for it, but is available on [Github](https://github.com/theprivateer/domainr) and [Packagist](https://packagist.org/packages/theprivateer/domainr). 
 

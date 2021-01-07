@@ -3,11 +3,9 @@ extends: _layouts.archive
 section: content
 date: 2018-01-24
 title: The Far North Queensland Dash
-cover_image: /assets/img/featured/oscar-aguilar-327500.jpg
-categories: [cycling]
 ---
 
-Spent a little time this evening putting together something of a presence for my [2018 cycling challenge](https://philstephens.io/2018).  First up - a cheeky bit of branding.  It certainly won't be winning any awards, but to me giving the challenge a logo has made things a little bit more legit in my mind.
+Spent a little time this evening putting together something of a presence for my [2018 cycling challenge](https://philstephens.com/archive/2018).  First up - a cheeky bit of branding.  It certainly won't be winning any awards, but to me giving the challenge a logo has made things a little bit more legit in my mind.
 
 ![](/assets/img/fnq-logo-1.png) {.half}
 

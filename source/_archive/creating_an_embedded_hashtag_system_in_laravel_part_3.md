@@ -3,8 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-07-24
 title: Creating an embedded hashtag system in Laravel - Part 3
-cover_image: /assets/img/featured/hashtag_locomedia.jpg
-categories: [coding]
 ---
 
 In my previous post I outlined how to integrate [Algolia search](https://www.algolia.com) into our front-end hashtag autocomplete, but I thought I would give a quick alternative to using an external service.  This example largely follows the same structure as a a couple of [recent](https://laracasts.com/series/lets-build-a-forum-with-laravel/episodes/60) [screencasts](https://laracasts.com/series/lets-build-a-forum-with-laravel/episodes/61) over on [Laracasts](https://laracasts.com/), where a username @mention autocomplete is implemented, so if you've seen those this will all be familiar.

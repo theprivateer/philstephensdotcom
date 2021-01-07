@@ -3,9 +3,6 @@ extends: _layouts.post
 section: content
 date: 2020-11-14
 title: First video on YouTube
-cover_image: /assets/img/featured/jeshoots-com-rbwgeca-HWU-unsplash.jpg
-featured: true
-categories: [cycling, youtube]
 ---
 
 I broke out my old GoPro Hero 7 for my mountain bike ride a couple mornings ago, and whilst it wasn't exactly the fastest or most elegant run of some of the trails I caught some reasonable footage from the chest mount.

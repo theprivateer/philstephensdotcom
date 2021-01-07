@@ -3,7 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-06-20
 title: I'm sorry LinkedIn, I was wrong
-cover_image: /assets/img/linkedin-featured.jpg
 ---
 
 About a year ago I gave up on Facebook, it was becoming too much of a distraction and filled more an more with pointless shit.  If I didn't post anything for a week, I would get comments like "What's wrong with you? You haven't posted for _ages_" - which just seems wrong.  I still kept my Twitter and Instagram going, but more for their voyeuristic qualities, but I can honestly say that I have not missed being on Facebook, not one iota.

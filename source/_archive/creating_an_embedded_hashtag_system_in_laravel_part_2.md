@@ -3,11 +3,9 @@ extends: _layouts.archive
 section: content
 date: 2017-07-21
 title: Creating an embedded hashtag system in Laravel - Part 2
-cover_image: /assets/img/featured/hashtag_locomedia.jpg
-categories: [coding]
 ---
 
-**Part 1 of this tutorial can be found at [Creating an embedded hashtag system in Laravel - Part 1](https://philstephens.io/creating-an-embedded-hashtag-system-in-laravel-part-1).** 
+**Part 1 of this tutorial can be found at [Creating an embedded hashtag system in Laravel - Part 1](https://philstephens.com/archive/creating-an-embedded-hashtag-system-in-laravel-part-1).** 
 
 In my previous post I outlined how to set up an embedded tagging system that will extract hashtags from a post, convert them into clickable hyperlinks, and attach them to the post.  In this article we will look at wiring up a convenient autocomplete in the UI that not only allows for quicker writing, but also consistency in the use of tags.
 

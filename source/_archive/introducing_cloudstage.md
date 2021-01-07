@@ -3,8 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-06-27
 title: Introducing CloudStage
-cover_image: /assets/img/todd-quackenbush-27527.jpg
-categories: [products]
 ---
 
 I am a constant tinkerer, always messing about with ideas for side-projects and seeing what sticks.  One of the barriers - albeit very small - to trying code out in the wild is the ability to get a quick domain name for testing.  PaaS providers such as [Heroku](https://www.heroku.com/) and [Pagoda Box](https://pagodabox.io/) will give you a simple and memorable default domain when you spin up a new service, but there are plenty other players in the market.

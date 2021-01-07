@@ -3,7 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-07-08
 title: Dropbox as a blogging platform
-cover_image: /assets/img/featured/dropbox1.png
 ---
 
 This blog is powered by a lightweight bespoke platform built on Laravel.  Whilst there are many great blogging platforms out there, I decided to build my own to meet my own specific requirements, and to scratch the itch of building something that I would use everyday.

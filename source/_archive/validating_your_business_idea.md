@@ -3,7 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-10-03
 title: Validating your business idea
-cover_image: /assets/img/featured/nik-macmillan-280300.jpg
 ---
 
 If you've got a business or product idea it's easy to get carried away and invest time and often money without really considering the viability of the idea - until it's too late.

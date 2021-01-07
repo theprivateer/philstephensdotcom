@@ -3,7 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-07-17
 title: My Problem with Passengers
-cover_image: /assets/img/featured/798114.jpg
 ---
 
 **Warning: This post contains spoilers for the 2016 sci-fi movie Passengers**

@@ -3,7 +3,6 @@ extends: _layouts.archive
 section: content
 date: 2017-12-08
 title: In Search of a Good Cause
-cover_image: /assets/img/featured/david-marcu-125458.jpg
 ---
 
 Back in 2012 I cycled from the most south-westerly point of the British Isles to the most north-easterly ([Land's End to John o'Groats](https://en.wikipedia.org/wiki/Land's_End_to_John_o'_Groats)) - roughly 1,600km - and it was one of the most rewarding experiences I've had in recent years.  Lately I have been mulling over an idea to undertake another physical challenge before I turn 40 next September.
