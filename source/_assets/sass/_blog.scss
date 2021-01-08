@@ -1,12 +1,17 @@
 // Your custom blog styles here
 
-img
+.post-content
 {
-    &.half
+
+    img
     {
         margin-left: auto;
         margin-right: auto;
         @apply .text-center;
-        @apply .w-1/2;
+
+        &.half
+        {
+            @apply .w-1/2;
+        }
     }
 }

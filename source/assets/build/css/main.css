@@ -938,10 +938,13 @@ pre code {
   font-size: .925rem;
 }
 
-img.half {
+.post-content img {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.post-content img.half {
   width: 50%;
 }
 

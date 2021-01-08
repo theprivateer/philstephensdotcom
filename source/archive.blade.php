@@ -3,7 +3,7 @@ title: Archive
 description: The list of archived blog posts for the site
 pagination:
     collection: archive
-    perPage: 4
+    perPage: 10
 ---
 @extends('_layouts.master')
 
@@ -15,7 +15,7 @@ pagination:
     <hr class="border-b my-6">
 
     @foreach ($pagination->items as $post)
-        @include('_components.post-preview-inline')
+        @include('_components.post-preview-inline', ['hide_excerpt' => true])
 
         @if ($post != $pagination->items->last())
             <hr class="border-b my-6">

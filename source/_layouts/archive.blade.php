@@ -5,41 +5,17 @@
 @endphp
 
 @section('body')
-    <p class="bg-orange-500 text-white mb-10 p-4">This is an archived post from a previous incarnation of my blog.  It is most likely out of date and with broken links, but I like keeping it around for nostalgic reasons.</p>
+    <p class="bg-orange-500 text-white mb-10 p-4">
+        This is an archived post from a previous incarnation of my blog.  It is most likely out of date and with broken links, but I like keeping it around for nostalgic reasons.
+    </p>
 
     <h1 class="leading-none font-serif mb-2">{{ $page->title }}</h1>
 
     <p class="text-gray-700 text-xl md:mt-0">{{ date('F j, Y', $page->date) }}</p>
 
-    {{--@if ($page->categories)--}}
-        {{--@foreach ($page->categories as $i => $category)--}}
-            {{--<a--}}
-                {{--href="{{ '/blog/categories/' . $category }}"--}}
-                {{--title="View posts in {{ $category }}"--}}
-                {{--class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"--}}
-            {{-->{{ $category }}</a>--}}
-        {{--@endforeach--}}
-    {{--@endif--}}
-
-    <div class="border-b border-blue-200 mb-10 pb-4" v-pre>
+    <div class="border-b border-blue-200 mb-10 pb-4 post-content">
         @yield('content')
     </div>
 
-    <nav class="flex justify-between text-sm md:text-base">
-        <div>
-            @if ($next = $page->getNext())
-                <a href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}" class="font-normal">
-                    &LeftArrow; {{ $next->title }}
-                </a>
-            @endif
-        </div>
-
-        <div class="text-right">
-            @if ($previous = $page->getPrevious())
-                <a href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}" class="font-normal">
-                    {{ $previous->title }} &RightArrow;
-                </a>
-            @endif
-        </div>
-    </nav>
+    @include('_components.post-navigation')
 @endsection

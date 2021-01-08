@@ -3,7 +3,7 @@ title: Blog
 description: The list of blog posts for the site
 pagination:
     collection: posts
-    perPage: 4
+    perPage: 10
 ---
 @extends('_layouts.master')
 

@@ -11,6 +11,7 @@
         >{{ $post->title }}</a>
     </h2>
 
+    @if( empty($hide_excerpt))
     <p class="mb-4 mt-0">{!! $post->getExcerpt(200) !!}</p>
 
     <a
@@ -18,4 +19,5 @@
         title="Read more - {{ $post->title }}"
         class="uppercase font-semibold tracking-wide mb-2"
     >Read More</a>
+    @endif
 </div>

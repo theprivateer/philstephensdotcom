@@ -10,8 +10,11 @@
         <meta property="og:type" content="{{ $page->type ?? 'website' }}" />
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}" />
+        {{--<meta property="og:image" content="https://alexandersix.com/assets/img/Open-Graph-Default-Image.jpg" />--}}
 
-        <title>{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
+        {{-- Twitter card markup --}}
+
+        <title>{{ $page->title ? $page->title . ' | ' : '' }}{{ $page->siteName }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/favicon.ico">
@@ -32,15 +35,7 @@
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center text-blue-800 hover:text-blue-600">
-                        {{--<svg class="h-8 md:h-10 mr-3" viewBox="0 0 233 320" xmlns="http://www.w3.org/2000/svg" fill="currentColor">--}}
-                            {{--<g transform="matrix(1,0,0,1,-150.001,-63.9362)">--}}
-                                {{--<g transform="matrix(4.16667,0,0,4.16667,0,-3060)">--}}
-                                    {{--<path d="M88.606,783.783C89.039,781.334 91.318,765.257 77.789,759.682C77.789,759.681 77.79,759.68 77.79,759.679C77.973,757.36 77.169,756.309 77.169,756.309C76.293,758.498 73.915,758.484 73.915,758.484C74.599,753.22 71.917,749.745 71.917,749.745C70.167,757.622 60.102,757.622 60.134,757.78L60.132,757.794C35.567,758.343 38.737,780.848 39.256,783.783C38.367,783.529 35.667,783.197 36.034,788.692C36.463,795.132 37.316,802.829 41.479,802.706L41.504,802.915C42.598,825.451 63.384,826.545 63.384,826.545L64.697,826.545L64.697,826.529C66.911,826.336 85.33,824.095 86.358,802.915L86.383,802.706C90.546,802.829 91.399,795.132 91.829,788.692C92.195,783.197 89.495,783.529 88.606,783.783M64.649,788.056L60.702,779.088L48.505,784.11L63.214,767.25L67.16,775.859L79.357,771.196L64.649,788.056Z" />--}}
-                                {{--</g>--}}
-                            {{--</g>--}}
-                        {{--</svg>--}}
-
-                        <h1 class="text-lg md:text-2xl font-serif font-semibold my-0">{{ $page->siteName }}</h1>
+                        <h1 class="text-2xl font-serif font-semibold my-0">{{ $page->siteName }}</h1>
                     </a>
                 </div>
 

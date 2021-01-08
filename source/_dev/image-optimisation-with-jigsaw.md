@@ -4,9 +4,11 @@ section: content
 date: 2020-11-13
 title: Image Optimisation with Jigsaw
 cover_image: /assets/img/featured/agence-olloweb-d9ILr-dbEdg-unsplash.jpg
-featured: true
-categories: [coding]
+description: "How to easily add image size optimisation to your Jigsaw static website builds."
+excerpt: "How to easily add image size optimisation to your Jigsaw static website builds."
 ---
+
+**Note: Since writing this post I have decided to remove the featured images from my website templates (just a preference thing), but the following is still valid.**
 
 I use [Jigsaw](https://jigsaw.tighten.co) to build this blog, and each post leads with a large featured image.  In many cases these images are just thematic and come from [Unsplash](https://unsplash.com), but my writing and publishing workflow doesn't include any image manipulation software to optimise the dimensions for the web.
 

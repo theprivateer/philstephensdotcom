@@ -3,7 +3,7 @@ title: Dev
 description: Dev stuff
 pagination:
     collection: dev
-    perPage: 4
+    perPage: 10
 ---
 @extends('_layouts.master')
 
