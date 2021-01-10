@@ -56,7 +56,7 @@
         <footer class="text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
                 <li class="md:mr-2">
-                    &copy; Phil Stephens {{ date('Y') }}
+                    &copy; Phil Stephens 2017-{{ date('Y') }}
                 </li>
 
                 {{--<li>--}}
