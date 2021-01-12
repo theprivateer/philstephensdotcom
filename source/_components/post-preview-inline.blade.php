@@ -1,6 +1,6 @@
 <div class="flex flex-col mb-4">
     <p class="text-gray-700 font-medium my-2">
-        {{ $post->getDate()->format('F j, Y') }}
+        {{ $post->getDate()->format('F j, Y') }} • {{ $post->estimated_reading_time }}
     </p>
 
     <h2 class="text-3xl mt-0 font-serif">
