@@ -15,16 +15,25 @@ return [
             'author' => 'Phil Stephens', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{_filename}',
+            'filter' => function ($item) {
+                return $item->date;
+            },
         ],
         'dev' => [
             'author' => 'Phil Stephens', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'dev/{_filename}',
+            'filter' => function ($item) {
+                return $item->date;
+            },
         ],
         'archive' => [
             'author' => 'Phil Stephens', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'archive/{_filename}',
+            'filter' => function ($item) {
+                return $item->date;
+            },
         ],
         'categories' => [
             'path' => '/blog/categories/{_filename}',

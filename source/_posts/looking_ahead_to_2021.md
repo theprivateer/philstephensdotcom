@@ -49,10 +49,10 @@ As a sufferer of anxiety I'm really looking forward to seeing how following the 
 
 #### Professional
 
-As I mentioned I've been pretty lucky with my work during the pandemic, and whilst it hasn't always been fun and games I am fortunate to be where I am, so I don't have any intentions of changing it anytime soon.  That being said, there is always room to be more fulfilled by one's work.
+As I mentioned I've been pretty lucky with my work during the pandemic, and whilst it hasn't always been fun and games I am fortunate to be where I am.
 
-Like most software developers I'm always coming up with ideas for new apps and services. I'll often go as far as creating a full MVP with all of the core functionality, but then lose steam  and never end up releasing it to the world.  My problem seems to be with I like to refer to as the last mile - the last 10% of the work that seems to take 90% of the time.  The more mundane aspects such as account management, registration, payment and terms of service.
+Like most software developers I'm always coming up with ideas for new apps and services. I'll often go as far as creating a full MVP with all of the core functionality, but then lose steam  and never end up releasing it to the world.  My problem seems to be with what I like to refer to as the last mile - the last 10% of the work that seems to take 90% of the time.  The more mundane aspects such as account management, registration, payment and terms of service.
 
-Whilst working on updating my blog I've been reading through some of my archived posts and I'd forgotten how solid some of my ideas were.  So whilst my day job will very much remain my day job, I plan to resurrect some of these old projects, modernise the codebase (where possible) and focus on implementing the last mile. To keep things as focussed as possible I will be concentrating on simplifying this projects and distilling the core functionality.  I'm hoping that the tricks I learn from my physical and mental endurance training will give me the ability to push through to completing this coding projects!
+Whilst working on updating my blog I've been reading through some of my archived posts and I'd forgotten how solid some of my ideas were.  So whilst my day job will very much remain my day job, I plan to resurrect some of these old projects, modernise the codebase (where possible) and focus on implementing the last mile. To keep things as focused as possible I will be concentrating on simplifying this projects and distilling the core functionality.  I'm hoping that the tricks I learn from my physical and mental endurance training will give me the ability to push through to completing this coding projects!
 
 Exciting times ahead!
