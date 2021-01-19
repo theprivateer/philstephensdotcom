@@ -23,7 +23,7 @@ In this instance I won't be getting particularly scientific about my training - 
 
 ### Technique
 
-I often joke that whilst I love mountain biking I'm especially good at it.  Whilst I am happy with my own abilities insofar as I get to ride the trails I want to, there is definitely a lot of room for improvement.  Technique isn't just about being able to jump those gaps or rail berms, it's also about riding efficiently to get the most out of  your energy output (whilst climbing, for example).
+I often joke that whilst I love mountain biking I'm not especially good at it.  Whilst I am happy with my own abilities insofar as I get to ride the trails I want to, there is definitely a lot of room for improvement.  Technique isn't just about being able to jump those gaps or rail berms, it's also about riding efficiently to get the most out of  your energy output (whilst climbing, for example).
 
 Looking at the course maps online, this event does seem to mostly stick to category green trails, which means that the terrain and obstacles won't be _too_ hectic, but I will still want to brush up on a few techniques beforehand.
 
