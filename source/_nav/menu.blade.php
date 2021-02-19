@@ -1,4 +1,9 @@
 <nav class="hidden lg:flex items-center justify-end text-lg">
+    <a title="{{ $page->siteName }} Stream" href="/stream"
+       class="ml-6 text-gray-700 font-normal hover:text-orange-600 {{ $page->isActive('/stream') ? 'active text-orange-600' : '' }}">
+        Stream
+    </a>
+
     <a title="{{ $page->siteName }} Blog" href="/blog"
         class="ml-6 text-gray-700 font-normal hover:text-orange-600 {{ $page->isActive('/blog') ? 'active text-orange-600' : '' }}">
         Blog

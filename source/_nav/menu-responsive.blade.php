@@ -2,6 +2,14 @@
     <ul class="my-0">
         <li class="pl-4">
             <a
+                    title="{{ $page->siteName }} Stream"
+                    href="/stream"
+                    class="nav-menu__item font-normal hover:text-orange-500 {{ $page->isActive('/stream') ? 'active text-orange' : '' }}"
+            >Stream</a>
+        </li>
+
+        <li class="pl-4">
+            <a
                 title="{{ $page->siteName }} Blog"
                 href="/blog"
                 class="nav-menu__item font-normal hover:text-orange-500 {{ $page->isActive('/blog') ? 'active text-orange' : '' }}"
