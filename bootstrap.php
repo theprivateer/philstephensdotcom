@@ -17,4 +17,3 @@
 $events->afterCollections(App\Listeners\GenerateEstimatedReadingTime::class);
 $events->afterBuild(App\Listeners\GenerateSitemap::class);
 //$events->afterBuild(App\Listeners\GenerateIndex::class);
-//$events->afterBuild(App\Listeners\ResizeImages::class);

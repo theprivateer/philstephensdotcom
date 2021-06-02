@@ -35,16 +35,16 @@ return [
                 return $item->date;
             },
         ],
-        'stream' => [
-            'author' => 'Phil Stephens', // Default author, if not provided in a post
-            'sort' => '-date',
-            'path' => 'stream/{_filename}',
-            'filter' => function ($item) {
-                return ! in_array($item->getFilename(), [
-                  '798', '772', '771', '605', '604', '521', '492', '483', '449', '445', '442', '433', '412', '334', '328', '294', '288', '56', '6'
-                ]);
-            },
-        ],
+        // 'stream' => [
+        //     'author' => 'Phil Stephens', // Default author, if not provided in a post
+        //     'sort' => '-date',
+        //     'path' => 'stream/{_filename}',
+        //     'filter' => function ($item) {
+        //         return ! in_array($item->getFilename(), [
+        //           '798', '772', '771', '605', '604', '521', '492', '483', '449', '445', '442', '433', '412', '334', '328', '294', '288', '56', '6'
+        //         ]);
+        //     },
+        // ],
         'categories' => [
             'path' => '/blog/categories/{_filename}',
             'posts' => function ($page, $allPosts) {
