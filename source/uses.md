@@ -22,7 +22,7 @@ _This is my [/uses page](https://uses.tech). It was last updated December 12, 20
 
 ## Software
 
-- VS Code
+- Visual Studio Code
 - Safari
 - [TablePlus](https://tableplus.com)
 - [iTerm](https://iterm2.com)
