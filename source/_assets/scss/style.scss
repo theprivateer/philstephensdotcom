@@ -1,0 +1,231 @@
+@import url(https://fonts.bunny.net/css?family=aleo:300,300i,700,700i);
+
+// Reset from https://www.joshwcomeau.com/css/custom-css-reset/
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html, body { height: 100%; }
+body { line-height: 1.5; -webkit-font-smoothing: antialiased; }
+img, picture, video, canvas, svg { display: block; max-width: 100%; }
+input, button, textarea, select { font: inherit; }
+p, h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
+#root, #__next { isolation: isolate; }
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Aleo', serif;
+}
+
+.container
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.footer
+{
+    display: flex;
+    padding-top: 1rem;
+    margin: 2rem 0;
+}
+
+.footer ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+.footer ul:last-child
+{
+    text-align: right;
+}
+
+.footer li
+{
+    margin-bottom: 0.1rem;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-50
+{
+    width: 50%;
+}
+
+img
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, ul, ol, blockquote, pre
+{
+    margin-bottom: 1.3rem;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+code
+{
+    background: #fafafa;
+    padding: 0.1rem 0.2rem;
+    display: inline-block;
+}
+
+p > a,
+.page-content a {
+    background: linear-gradient(to right, rgba(255, 164, 61, 0.3), rgba(255, 152, 61, 0.7));
+    background-size: 300% 40%;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+
+.copyright
+{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-list
+{
+    margin-top: 3rem;
+}
+
+.article-list > h4
+{
+    text-align: right;
+    margin-bottom: 0.5rem;
+}
+
+.article-list > a
+{
+    display: flex;
+    align-items: baseline;
+    padding: 0.2rem 0;
+    margin-bottom: 0.5rem;
+}
+
+.article-list > a > hr
+{
+    margin: 0 1rem;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.page-content
+{
+    margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5
+{
+    margin: 1.5rem 0;
+    font-weight: 700;
+}
+
+h1
+{
+    font-size: 2rem;
+}
+
+h2, h3, h4, h5
+{
+    font-size: 1.5rem;
+}
+
+.masthead
+{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+ul
+{
+    list-style-type: "— ";
+    padding-left: 2rem;
+    margin-left: -2rem;
+}
+
+.pill
+{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.pill > a
+{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 9999px;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+@media (max-width: 640px) {
+
+    .article-list > a
+    {
+        display: block;
+    }
+    .article-list > a > span
+    {
+        display: block;
+    }
+
+    .article-list > a > span:last-child
+    {
+        font-style: italic;
+    }
+
+    .article-list > a > hr
+    {
+        display: none;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .col-25,
+    .col-50
+    {
+        width: 100%;
+    }
+
+    .footer ul:last-child
+    {
+        text-align: left;
+    }
+
+    .article-list > h4 {
+        text-align: left;
+    }
+}
+
+.subscribe
+{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-style: italic;
+}
+
+.subscribe h3
+{
+    font-size: 1.2rem;
+    margin: 0 0 0.2rem;
+    font-style: normal;
+}

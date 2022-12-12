@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "mix",
+        "watch": "mix watch",
+        "staging": "NODE_ENV=staging mix",
+        "prod": "mix --production"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.10",
+        "laravel-mix-jigsaw": "^1.5.0",
+        "postcss": "^8.2.4",
+        "postcss-import": "^14.0.0",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.39.2",
+        "sass-loader": "^12.1.0"
+    },
+    "dependencies": {
+        "@octokit/rest": "^18.12.0"
+    }
+}
