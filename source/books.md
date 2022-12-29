@@ -7,6 +7,9 @@ title: Books I Have Read
 
 ## Fiction
 
+* Even Dogs in the Wild | Ian Rankin
+* Foundation and Earth | Isaac Asimov
+* Die Trying | Lee Child
 * Foundation's Edge | Isaac Asimov
 * Killing Floor | Lee Child
 * The Songs of Distant Earth | Arthur C. Clarke
