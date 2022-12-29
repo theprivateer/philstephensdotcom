@@ -35,20 +35,20 @@
             @yield('body')
 
             <section class="footer">
-                <ul class="col-50">
+                <ul class="col-25">
                     <li><a href="{{ $page->baseUrl }}/blog">Blog Articles</a></li>
                     <li><a href="{{ $page->baseUrl }}/dev">Dev Articles</a></li>
+                </ul>
+
+                <ul class="col-50">
+                    <li><a href="{{ $page->baseUrl }}/ways-i-m-available-to-help">Ways I'm Available to Help</a></li>
+                    <li><a href="{{ $page->baseUrl }}/contact">Contact Me</a></li>
+                    {{-- <li><a href="https://www.linkedin.com/in/phil-stephens/" target="_blank">LinkedIn</a></li> --}}
                 </ul>
 
                 <ul class="col-25">
                     <li><a href="{{ $page->baseUrl }}/now">Now</a></li>
                     <li><a href="{{ $page->baseUrl }}/uses">Uses</a></li>
-                </ul>
-
-                <ul class="col-25">
-                    <li><a href="{{ $page->baseUrl }}/ways-i-m-available-to-help">Ways I'm Available to Help</a></li>
-                    <li><a href="{{ $page->baseUrl }}/contact">Contact Me</a></li>
-                    {{-- <li><a href="https://www.linkedin.com/in/phil-stephens/" target="_blank">LinkedIn</a></li> --}}
                 </ul>
             </section>
 
