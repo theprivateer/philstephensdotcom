@@ -11,7 +11,7 @@ title: Phil Stephens - cyclist and software developer
         <h1>Hi, I'm <a>Phil</a></h1>
         <p>I'm a cyclist and software developer - currently a Technical Lead at <a href="https://www.rexsoftware.com">Rex</a>.</p>
         <p>I live in Brisbane, Australia with my wife and two kids and I spend way too much time looking at bikes on the internet.</p>
-        <p>Here is what I'm up to <a href="{{ $page->baseUrl }}/now">at the moment...</a></p>
+        {{-- <p>Here is what I'm up to <a href="{{ $page->baseUrl }}/now">at the moment...</a></p> --}}
     </article>
 
     <nav class="article-list">

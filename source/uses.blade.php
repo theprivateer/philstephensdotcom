@@ -42,6 +42,10 @@
             </div>
 
             <div>
+                <h3><a href="/uses/health">Health</a></h3>
+            </div>
+
+            <div>
                 <h3><a href="/uses/services">Services</a></h3>
             </div>
 
