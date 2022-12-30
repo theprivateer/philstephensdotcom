@@ -5,11 +5,17 @@ title: Books
 ---
 # Books
 
+## Currently Reading
+
+* Even Dogs in the Wild | Ian Rankin
+* Hyperfocus | Chris Bailey
+
 ## Books I've Read
 
 ### Fiction
 
-* Even Dogs in the Wild | Ian Rankin
+#### 2022
+
 * Foundation and Earth | Isaac Asimov
 * Die Trying | Lee Child
 * Foundation's Edge | Isaac Asimov
@@ -19,32 +25,51 @@ title: Books
 * Foundation and Empire | Isaac Asimov
 * Saints of the Shadow Bible | Ian Rankin
 * Standing in Another Man's Grave | Ian Rankin
+
+#### 2021
+
 * Foundation | Isaac Asimov
 
 ### Non-Fiction
 
-* Hyperfocus | Chris Bailey
+#### 2022
+
 * Make Time | Jake Knapp & John Zeratsky
 * The Miracle Morning | Hal Elrod
+
+#### 2021
+
 * Effortless | Greg McKeown
 * Essentialism | Greg McKeown
 * Finding Ultra | Rich Roll
 * A World Without Email | Cal Newport
-* So Good They Can't Ignore You | Cal Newport
 * Deep Work | Cal Newport
+* So Good They Can't Ignore You | Cal Newport
+* Digital Minimalism | Cal Newport
+
+#### 2020
+
 * The $100 Startup | Chris Guillebeau
 * The Art of Resilience | Ross Edgley
-* The World's Fittest Book | Ross Edgley
-* Digital Minimalism | Cal Newport
 * Get Remarkably Organised | Lorraine Murphy
-* Atomic Habits | James Clear
-* Company of One | Paul Jarvis
-* Rework | Jason Fried & DHH
-* It Doesn't Have to Be Crazy at Work | Jason Fried & DHH
+* The World's Fittest Book | Ross Edgley
 * Do Purpose | David Hieatt
+* Company of One | Paul Jarvis
+* Atomic Habits | James Clear
+
+#### 2019
+
+* Rework | Jason Fried & David Heinemeier Hansson
+
+#### 2018
+
+* It Doesn't Have to Be Crazy at Work | Jason Fried & David Heinemeier Hansson
+
+#### 2017
+
 * Do Fly | Gavin Strange
 * Business for Punks | James Watt
-* Remote | Jason Fried & DHH
+* Remote | Jason Fried & David Heinemeier Hansson
 
 ## On the Shelf
 
@@ -58,5 +83,6 @@ title: Books
 ## Want to Read
 
 * Tripwire | Lee Child
-* Everything by Derek Sivers
+* [Everything](https://sive.rs/#mybooks) by Derek Sivers
 * Blueprint | Ross Edgley
+* Bad Debts | Peter Temple
