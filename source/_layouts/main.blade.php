@@ -38,6 +38,7 @@
                 <ul class="col-25">
                     <li><a href="{{ $page->baseUrl }}/blog">Blog Articles</a></li>
                     <li><a href="{{ $page->baseUrl }}/dev">Dev Articles</a></li>
+                    <li><a href="{{ $page->baseUrl }}/books">Reading List</a></li>
                 </ul>
 
                 <ul class="col-50">
