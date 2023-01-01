@@ -20,7 +20,7 @@ title: Books
 * [Die Trying](https://www.kobo.com/au/en/ebook/die-trying-2) | Lee Child
 * [Foundation's Edge](https://www.kobo.com/au/en/ebook/foundation-s-edge-the-foundation-series-sequels-book-1) | Isaac Asimov
 * [Killing Floor](https://www.kobo.com/au/en/ebook/killing-floor-jack-reacher-1) | Lee Child
-* The Songs of Distant Earth | Arthur C. Clarke
+* [The Songs of Distant Earth](https://www.amazon.com/Songs-Distant-Earth-Arthur-Clarke/dp/0345322401) | Arthur C. Clarke
 * [Second Foundation](https://www.kobo.com/au/en/ebook/second-foundation-the-foundation-trilogy-book-3-1) | Isaac Asimov
 * [Foundation and Empire](https://www.kobo.com/au/en/ebook/foundation-and-empire-the-foundation-trilogy-book-2) | Isaac Asimov
 * [Saints of the Shadow Bible](https://www.kobo.com/au/en/ebook/saints-of-the-shadow-bible) | Ian Rankin
