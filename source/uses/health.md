@@ -8,3 +8,4 @@ title: Health
 - Withings ScanWatch hybrid smartwatch
 - Withings Body Cardio smart scale
 - Withings BPM Connect blood pressure cuff
+- Theragun Pro percussive massage gun

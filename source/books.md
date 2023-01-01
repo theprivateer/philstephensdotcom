@@ -7,12 +7,16 @@ title: Books
 
 ## Currently Reading
 
-* [Even Dogs in the Wild](https://www.kobo.com/au/en/ebook/even-dogs-in-the-wild) | Ian Rankin
+* [Bad Debts](https://www.kobo.com/au/en/ebook/bad-debts-4) | Peter Temple
 * [Hyperfocus](https://www.kobo.com/au/en/ebook/hyperfocus-5) | Chris Bailey
 
 ## Books I've Read
 
 ### Fiction
+
+#### 2023
+
+* [Even Dogs in the Wild](https://www.kobo.com/au/en/ebook/even-dogs-in-the-wild) | Ian Rankin
 
 #### 2022
 
@@ -85,4 +89,3 @@ title: Books
 * [Tripwire](https://www.kobo.com/au/en/ebook/tripwire-4) | Lee Child
 * [Everything](https://sive.rs/#mybooks) by Derek Sivers
 * [Blueprint](https://www.kobo.com/au/en/ebook/blueprint-build-a-bulletproof-body-for-extreme-adventure-in-365-days) | Ross Edgley
-* [Bad Debts](https://www.kobo.com/au/en/ebook/bad-debts-4) | Peter Temple
