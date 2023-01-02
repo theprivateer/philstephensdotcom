@@ -9,3 +9,4 @@ title: Health
 - Withings Body Cardio smart scale
 - Withings BPM Connect blood pressure cuff
 - Theragun Pro percussive massage gun
+- Dyson Pure Hot+Cold air purifier

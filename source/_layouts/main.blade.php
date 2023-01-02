@@ -44,7 +44,6 @@
                 <ul class="col-50">
                     <li><a href="{{ $page->baseUrl }}/ways-i-m-available-to-help">Ways I'm Available to Help</a></li>
                     <li><a href="{{ $page->baseUrl }}/contact">Contact Me</a></li>
-                    {{-- <li><a href="https://www.linkedin.com/in/phil-stephens/" target="_blank">LinkedIn</a></li> --}}
                 </ul>
 
                 <ul class="col-25">
