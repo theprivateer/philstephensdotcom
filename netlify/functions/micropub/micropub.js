@@ -70,7 +70,7 @@ exports.handler = (event, context, callback) => {
     owner: "theprivateer",
     repo: "philstephensdotcom",
     message: ("New blog post: " + title),
-    path: "source/_blog/" + filename + ".md",
+    path: "source/_posts/" + filename + ".md",
     content: Buffer.from(fileContent.join("\n")).toString("base64")
   }).then((response) => {
     // Redirect iA Writer to the blog page, where the post will eventually show up.

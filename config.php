@@ -7,17 +7,12 @@ return [
     'baseUrl' => 'http://localhost:8000',
     'title' => 'Phil Stephens',
     'rssTitle' => 'Phil Stephens - All Articles',
-    // 'rssBlogTitle' => 'Phil Stephens - Blog Articles',
-    // 'rssDevTitle' => 'Phil Stephens - Dev Articles',
     'description' => "Hi, I'm a cyclist and creative software developer.",
     'siteLanguage' => 'en',
     'collections' => [
         'posts' => [
-            'author' => 'Phil Stephens', // Default author, if not provided in a post
+            'author' => 'Phil Stephens',
             'sort' => '-date',
-            // 'map' => function ($post) {
-            //     return \App\Models\Post::fromItem($post);
-            // },
             'path' => function ($page) {
                 $slug = Str::slug($page->getFilename());
 
@@ -31,26 +26,6 @@ return [
                 return $item->date;
             },
         ],
-
-        // 'dev' => [
-        //     'author' => 'Phil Stephens', // Default author, if not provided in a post
-        //     'sort' => '-date',
-        //     'map' => function ($post) {
-        //         return \App\Models\DevPost::fromItem($post);
-        //     },
-        //     'path' => function ($page) {
-        //         $slug = Str::slug($page->getFilename());
-
-        //         if (substr($slug, 0, 2) == '20' && substr($slug, 4, 1) == '-') {
-        //             return substr($slug, 11);
-        //         }
-
-        //         return $slug;
-        //     },
-        //     'filter' => function ($item) {
-        //         return $item->date;
-        //     },
-        // ],
     ],
     // helpers
     'getDate' => function ($page) {

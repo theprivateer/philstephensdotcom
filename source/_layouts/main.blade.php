@@ -13,8 +13,6 @@
 
         <link rel="stylesheet" href="{{ mix('css/style.css', 'assets/build') }}">
         <link rel="alternate" type="application/rss+xml" title="{{ $page->rssTitle }}" href="{{ $page->baseUrl }}/rss.xml" />
-        <link rel="alternate" type="application/rss+xml" title="{{ $page->rssBlogTitle }}" href="{{ $page->baseUrl }}/rss-blog.xml" />
-        <link rel="alternate" type="application/rss+xml" title="{{ $page->rssDevTitle }}" href="{{ $page->baseUrl }}/rss-dev.xml" />
         <link rel="micropub" href="{{ $page->baseUrl }}/.netlify/functions/micropub">
 
         <meta property="og:title" content="{!! $page->title !!}" />
