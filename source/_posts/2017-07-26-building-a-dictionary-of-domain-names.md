@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2017-07-26
 title: Building a Dictionary of Domain Names
+categories: [development]
 ---
 # Building a Dictionary of Domain Names
 
@@ -178,25 +179,25 @@ class DictionarySeeder extends Seeder
     public function run()
     {
         $client = new Client();
-        
+
         foreach(range('a', 'z') as $letter)
         {
         	$crawler = $client->request('GET', 'http://www.mso.anu.edu.au/~ralph/OPTED/v003/wb1913_' . $letter . 'html');
 
 			// filter through each <p> tag
 	        $crawler->filter('p')->each(function ($node) {
-	
+
 				// extract the word within <b> tags
 	            $word = $node->filter('b')->text();
-	
+
 				// extract the type within <i> tags
 	            $type  = $node->filter('i')->text();
-	
+
 				// clean up the text to give the definition - no need for fany regex
 	            $definition = str_replace("{$word} ({$type}) ", '', $node->text());
-	
+
 	            $word = \App\Word::firstOrCreate(['word' => $word]);
-	
+
 	            $word->definitions()->save(new \App\Definition([
 	                'type'  => $type,
 	                'definition' => $definition
@@ -417,7 +418,7 @@ At this point we should go back to our `Word` model and add the converse relatio
 class Word extends Model
 {
  	...
- 	
+
     public function domains()
     {
         return $this->hasMany(Domain::class);
@@ -480,7 +481,7 @@ class DomainSeeder extends Seeder
                 {
                 	// remove any trailing hyphen directly before the extension
                 	$domain = str_replace('-.', '.', $domain);
-                
+
                     \App\Domain::create([
                         'word_id'    => $word->id,
                         'tld_id'    => $tld->id,
@@ -580,7 +581,7 @@ class WordsController extends Controller
     {
     	// if no letter is passed through it must be the homepage
     	if(empty($letter)) return view('words.index');
-    	
+
     	// only retrieve words that have domains that start with the letter provided, and eager-load the definitions
         $words = Word::has('domains')
         			->with('definitions')

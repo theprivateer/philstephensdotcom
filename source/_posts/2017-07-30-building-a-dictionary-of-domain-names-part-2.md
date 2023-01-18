@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2017-07-30
 title: Building a Dictionary of Domain Names - Part 2
+categories: [development]
 ---
 # Building a Dictionary of Domain Names - Part 2
 
@@ -40,7 +41,7 @@ We're going to want to persist our API results to the database for faster lookup
 ```bash
 php artisan make:migration add_status_columns_to_domains --table=domains
 ```
-We're going to be recording three pieces of information from our lookups - the domain status, the timestamp of the check and whether or not the domain is actually available (based on the status values in the [Domainr documentation](https://domainr.build/docs/status#section-domain-status)) 
+We're going to be recording three pieces of information from our lookups - the domain status, the timestamp of the check and whether or not the domain is actually available (based on the status values in the [Domainr documentation](https://domainr.build/docs/status#section-domain-status))
 
 ```php
 use Illuminate\Support\Facades\Schema;
@@ -130,7 +131,7 @@ class CheckDomainStatus implements ShouldQueue
 
 		// uses the availability utility method on the Privateer\Domainr\Status class
         $this->domain->available = $status->get('available');
-       
+
         $this->domain->save();
 
         return;
@@ -299,7 +300,7 @@ class TldSeeder extends Seeder
             if(strpos($tld, '.') === 0)
             {
                 $parts = explode(' ', $tld);
-					
+
 				// Ensure that the TLD only contains latin characters and periods
                 if ( ! preg_match('/[^a-z.]/', $parts[0]))
                 {
@@ -339,7 +340,7 @@ class TldSeeder extends Seeder
             if(strpos($tld, '.') === 0)
             {
                 $parts = explode(' ', $tld);
-					
+
 				// Ensure that the TLD only contains latin characters and periods
                 if ( ! preg_match('/[^a-z.]/', $parts[0]))
                 {
@@ -347,7 +348,7 @@ class TldSeeder extends Seeder
                         'extension'  => $parts[0],
                     ]);
                 }
-                
+
                 // Now crawl the TLDs page
                 $subdomain_crawler = $client->request('GET', 'https://domainr.com' . $node->attr('href'));
 
@@ -358,7 +359,7 @@ class TldSeeder extends Seeder
                     if(strpos($tld, '.') === 0)
                     {
                         $parts = explode(' ', $tld);
-	
+
                         $_subtld = \App\Tld::firstOrCreate([
                                 'extension'  => $parts[0]
                             ]);

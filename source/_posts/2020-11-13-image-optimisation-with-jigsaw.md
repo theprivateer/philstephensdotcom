@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2020-11-13
 title: Image Optimisation with Jigsaw
+categories: [development]
 ---
 # Image Optimisation with Jigsaw
 
@@ -37,30 +38,30 @@ class ResizeImages
 		// You can inline these values if you prefer
 		$pathToImages = '/assets/img';
 		$maxImageWidth = 850;
-	
+
 		// Construct the iterator
 		$it = new \RecursiveDirectoryIterator($jigsaw->getDestinationPath() . $pathToImages);
-		
+
 		// Loop through files
 		foreach(new \RecursiveIteratorIterator($it) as $file) {
 			// Simple check to see if the file is an image
 			if(@is_array(getimagesize($file))) {
-				
+
 				// Instantiate an Intervention Image instance
 				$img = Image::make($file);
-				
+
 				if($img->width() > $maxImageWidth)
 				{
 					$img->widen($maxImageWidth, function ($constraint) {
 						$constraint->upsize();
 					});
-				
+
 					// Save image back to the original location
 					$img->save($file->getPathname());
-						
+
 				}
 			}
-			
+
 		}
 	}
 }

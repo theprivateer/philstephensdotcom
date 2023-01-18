@@ -7,22 +7,21 @@ return [
     'baseUrl' => 'http://localhost:8000',
     'title' => 'Phil Stephens',
     'rssTitle' => 'Phil Stephens - All Articles',
-    'rssBlogTitle' => 'Phil Stephens - Blog Articles',
-    'rssDevTitle' => 'Phil Stephens - Dev Articles',
+    // 'rssBlogTitle' => 'Phil Stephens - Blog Articles',
+    // 'rssDevTitle' => 'Phil Stephens - Dev Articles',
     'description' => "Hi, I'm a cyclist and creative software developer.",
     'siteLanguage' => 'en',
     'collections' => [
-        'blog' => [
+        'posts' => [
             'author' => 'Phil Stephens', // Default author, if not provided in a post
             'sort' => '-date',
-            'map' => function ($post) {
-                return \App\Models\Post::fromItem($post);
-            },
+            // 'map' => function ($post) {
+            //     return \App\Models\Post::fromItem($post);
+            // },
             'path' => function ($page) {
                 $slug = Str::slug($page->getFilename());
 
-                if(substr($slug, 0, 2) == '20' && substr($slug, 4, 1) == '-')
-                {
+                if (substr($slug, 0, 2) == '20' && substr($slug, 4, 1) == '-') {
                     return substr($slug, 11);
                 }
 
@@ -33,26 +32,25 @@ return [
             },
         ],
 
-        'dev' => [
-            'author' => 'Phil Stephens', // Default author, if not provided in a post
-            'sort' => '-date',
-            'map' => function ($post) {
-                return \App\Models\DevPost::fromItem($post);
-             },
-            'path' => function ($page) {
-                $slug = Str::slug($page->getFilename());
+        // 'dev' => [
+        //     'author' => 'Phil Stephens', // Default author, if not provided in a post
+        //     'sort' => '-date',
+        //     'map' => function ($post) {
+        //         return \App\Models\DevPost::fromItem($post);
+        //     },
+        //     'path' => function ($page) {
+        //         $slug = Str::slug($page->getFilename());
 
-                if(substr($slug, 0, 2) == '20' && substr($slug, 4, 1) == '-')
-                {
-                    return substr($slug, 11);
-                }
+        //         if (substr($slug, 0, 2) == '20' && substr($slug, 4, 1) == '-') {
+        //             return substr($slug, 11);
+        //         }
 
-                return $slug;
-            },
-            'filter' => function ($item) {
-                return $item->date;
-            },
-        ],
+        //         return $slug;
+        //     },
+        //     'filter' => function ($item) {
+        //         return $item->date;
+        //     },
+        // ],
     ],
     // helpers
     'getDate' => function ($page) {
@@ -63,8 +61,7 @@ return [
             return $page->excerpt;
         }
 
-        if(method_exists($page, 'getContent'))
-        {
+        if (method_exists($page, 'getContent')) {
             $content = preg_split('/<!-- more -->/m', $page->getContent(), 2);
             $cleaned = trim(
                 strip_tags(

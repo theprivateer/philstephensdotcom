@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2022-08-26
 title: Publishing hidden files with Jigsaw
+categories: [development]
 ---
 # Publishing hidden files with Jigsaw
 

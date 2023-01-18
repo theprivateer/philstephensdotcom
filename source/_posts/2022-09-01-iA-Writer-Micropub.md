@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2022-09-01
 title: "Using Micropub, Netlify and Jigsaw to publish new blog posts"
+categories: [development]
 ---
 # Using Micropub, Netlify and Jigsaw to publish new blog posts
 

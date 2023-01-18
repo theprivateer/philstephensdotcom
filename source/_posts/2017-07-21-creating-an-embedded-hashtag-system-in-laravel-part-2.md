@@ -1,12 +1,13 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2017-07-21
 title: Creating an embedded hashtag system in Laravel - Part 2
+categories: [development]
 ---
 # Creating an embedded hashtag system in Laravel - Part 2
 
-**Part 1 of this tutorial can be found at [Creating an embedded hashtag system in Laravel - Part 1](/blog/creating-an-embedded-hashtag-system-in-laravel-part-1).** 
+**Part 1 of this tutorial can be found at [Creating an embedded hashtag system in Laravel - Part 1](/blog/creating-an-embedded-hashtag-system-in-laravel-part-1).**
 
 In my previous post I outlined how to set up an embedded tagging system that will extract hashtags from a post, convert them into clickable hyperlinks, and attach them to the post.  In this article we will look at wiring up a convenient autocomplete in the UI that not only allows for quicker writing, but also consistency in the use of tags.
 
@@ -31,7 +32,7 @@ You can skip the tutorial and head straight to your dashboard to gather the info
 
 ![](/assets/img/snapstack/1/QplKII4AtKFNHmkcHU4e9jqcicOWeK6NbCC0NLlv.png)
 
-We will need the _Application ID_, _Search-Only API Key_ and the _Admin API Key_ in the next step. 
+We will need the _Application ID_, _Search-Only API Key_ and the _Admin API Key_ in the next step.
 
 ## Populating the index
 
@@ -151,10 +152,10 @@ There is nothing special here. We include the CSS/JS files of the `jquery-textco
 
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery.js"></script>
-	
+
 	<!-- Text Autocomplete plugin -->
 	<script src="./jquery.textcomplete.min.js"></script>
-	
+
 	<!-- Algolia Search API Client - latest version -->
 	<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
 </body>
@@ -185,7 +186,7 @@ Next we will need to add some additional styling (inline in the `<head>` is fine
 .dropdown-menu .textcomplete-item.active a {
   background: #F0F0F0;
 }
-/* Highlighting of the matching part 
+/* Highlighting of the matching part
    of each search result */
 .dropdown-menu .textcomplete-item a em {
   font-style: normal;
@@ -209,17 +210,17 @@ $(function() {
     var ALGOLIA_SEARCH_KEY = '';
     var ALGOLIA_INDEX_NAME = 'tags';
     var NB_RESULTS_DISPLAYED = 5;
-    
+
     // Algolia API Client Initialization
     var algoliaClient = new algoliasearch(ALGOLIA_APP_ID, ALGOLIA_SEARCH_KEY);
     var index = algoliaClient.initIndex(ALGOLIA_INDEX_NAME);
     var lastQuery = '';
-    
+
     $('#autocomplete-textarea').textcomplete([
         {
             // Regular expression used to trigger the autocomplete dropdown
             match: /(^|\s)#(\w*(?:\s*\w*))$/,
-            
+
             // Function called at every new keystroke
             search: function(query, callback) {
                 lastQuery = query;
@@ -233,20 +234,20 @@ $(function() {
                         console.error(err);
                     });
             },
-            
+
             // Template used to display each result obtained by the Algolia API
             template: function (hit) {
                 // Returns the highlighted version of the name attribute
                 return '#' + hit._highlightResult.slug.en.value;
             },
-            
+
             // Template used to display the selected result in the textarea
             replace: function (hit) {
                 return ' #' + hit.slug.en.trim() + ' ';
             }
         }
     ], {
-    
+
     // Include Algolia branding since this is using the free trial
     footer: '<div style="text-align: center; display: block; font-size:12px; margin: 5px 0 0 0;">Powered by <a href="http://www.algolia.com"><img src="https://www.algolia.com/assets/algolia128x40.png" style="height: 14px;" /></a></div>'
     });

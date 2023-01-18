@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2021-09-06
 title: My Visual Studio Code Setup
+categories: [development]
 ---
 # My Visual Studio Code Setup
 
@@ -85,5 +86,3 @@ Quite possibly one of my most-used extensions (and maybe one of the things I mis
 One of the great things about VS Code (and PhpStorm of course) is it's configurability. As I use VS Code more and more I will likely change things up to improve my workflow to make my development as effortless as possible.  When I inevitably do I will update this page accordingly.
 
 If you have any suggestions for some great extensions/workflow hacks for PHP developers feel free to drop me an email at [phils@hey.com](mailto:phils@hey.com).
-
-

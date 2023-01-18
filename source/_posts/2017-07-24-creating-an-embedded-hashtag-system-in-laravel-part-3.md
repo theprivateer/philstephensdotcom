@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2017-07-24
 title: Creating an embedded hashtag system in Laravel - Part 3
+categories: [development]
 ---
 # Creating an embedded hashtag system in Laravel - Part 3
 
@@ -22,15 +23,15 @@ As we did with the Algolia example we can now build out a simple HTML view to de
 <head>
 	<!-- Basic Bootstrap styling -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	
+
 	<!-- At.js styles -->
 	<link rel="stylesheet" href="/path/to/jquery.atwho.css">
-	
+
 </head>
 
 <body>
 	<textarea class="form-control" rows="5" id="autocomplete-textarea" name="body">
-	
+
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery.js"></script>
 

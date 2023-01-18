@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2017-07-18
 title: Creating an embedded hashtag system in Laravel - Part 1
+categories: [development]
 ---
 # Creating an embedded hashtag system in Laravel - Part 1
 
@@ -159,13 +160,13 @@ use Spatie\Tags\HasTags;
 class Post extends Model
 {
     use HasTags;
-    
+
     public static function boot()
     {
         parent::boot();
 
         self::saving( function($model) {
-        
+
             $environment = Environment::createCommonMarkEnvironment();
             $parser = new DocParser($environment);
             $htmlRenderer = new HtmlRenderer($environment);
@@ -248,7 +249,7 @@ public static function boot()
     parent::boot();
 
     self::saving( function($model) {
-		...            
+		...
         $environment = Environment::createCommonMarkEnvironment();
         $environment->addInlineParser(new \App\Parsers\HashtagParser());
         $parser = new DocParser($environment);
@@ -295,7 +296,7 @@ public static function boot()
     parent::boot();
 
     self::saving( function($model) {
-		...            
+		...
 		// Set up a container for any hashtags that get parsed
         App::singleton('tagqueue', function() {
             return new \App\TagQueue;
@@ -338,9 +339,9 @@ public static function boot()
     parent::boot();
 
     self::saving( function($model) {
-		...            
+		...
     });
-    
+
     self::saved( function($model) {
         $model->syncTags(app('tagqueue')->getTags());
 	});
@@ -350,4 +351,4 @@ public static function boot()
 
 Now that we have the embedded hashtag system working on the backend we can work on building the frontend implementation. In my next post we'll look at building out the autocomplete/suggestion UI.
 
-**Part 2 of this tutorial can be found at [Creating an embedded hashtag system in Laravel - Part 2](/blog/creating-an-embedded-hashtag-system-in-laravel-part-2).** 
+**Part 2 of this tutorial can be found at [Creating an embedded hashtag system in Laravel - Part 2](/blog/creating-an-embedded-hashtag-system-in-laravel-part-2).**

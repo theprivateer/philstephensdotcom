@@ -6,9 +6,9 @@
     <description><![CDATA[{{ $page->description }}]]></description>
     <atom:link href="{{ $page->getUrl() }}" rel="self" type="application/rss+xml" />
     <language>{{ $page->siteLanguage }}</language>
-    <lastBuildDate>{{ $blog->merge($dev)->sortByDesc('date')->first()->getDate()->format(DateTime::RSS) }}</lastBuildDate>
+    <lastBuildDate>{{ $posts->sortByDesc('date')->first()->getDate()->format(DateTime::RSS) }}</lastBuildDate>
 
-    @foreach($blog->merge($dev)->sortByDesc('date') as $post)
+    @foreach($posts->sortByDesc('date') as $post)
     <item>
         <title><![CDATA[{!! $post->title !!}]]></title>
         <link>{{ $post->getUrl() }}</link>

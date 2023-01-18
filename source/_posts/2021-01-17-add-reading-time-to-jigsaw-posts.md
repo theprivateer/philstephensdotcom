@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2021-01-17
 title: Adding Reading Time to a Jigsaw Blog
+categories: [development]
 ---
 # Adding Reading Time to a Jigsaw Blog
 
@@ -46,8 +47,8 @@ class GenerateEstimatedReadingTime
             $post->estimated_reading_time = $this->getEstimatedReadingTime($post);
         });
     }
-    
-    
+
+
     private function getEstimatedReadingTime($post, $wpm = 260)
 	{
 		...

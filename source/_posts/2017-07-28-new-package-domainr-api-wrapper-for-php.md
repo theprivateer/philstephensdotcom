@@ -1,14 +1,15 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2017-07-28
 title: "New Package: Domainr API wrapper for PHP"
+categories: [development]
 ---
 # New Package: Domainr API wrapper for PHP
 
 Following on from my [little side-project](https://github.com/theprivateer/domain-dictionary) from [a couple of days ago](/building-a-dictionary-of-domain-names) I wanted to be able to dynamically check the availability of a given domain.  Originally I planned to use the AWS Route53 API as I was already familiar with it, but after a couple of tests with it I found that I would very quickly have my API connection throttled as I approached some very meager rate limits - not ideal if I planned to get the status of domains in batches in scheduled jobs.
 
-After a little research I came across a service called [Domainr](https://domainr.com/).  Their [Developer API](https://domainr.build/) is clean and simple and exactly what I was looking for.  After a number of dry runs using Guzzle to make API calls I decided to quickly put together a package to wrap Domainr API with some simple syntax, and add some sugar to some of the responses.  It still needs a test suite written for it, but is available on [Github](https://github.com/theprivateer/domainr) and [Packagist](https://packagist.org/packages/theprivateer/domainr). 
+After a little research I came across a service called [Domainr](https://domainr.com/).  Their [Developer API](https://domainr.build/) is clean and simple and exactly what I was looking for.  After a number of dry runs using Guzzle to make API calls I decided to quickly put together a package to wrap Domainr API with some simple syntax, and add some sugar to some of the responses.  It still needs a test suite written for it, but is available on [Github](https://github.com/theprivateer/domainr) and [Packagist](https://packagist.org/packages/theprivateer/domainr).
 
 ## Installation
 
@@ -132,10 +133,10 @@ Status::description($summary);
 ```
 
 ```php
-\Privateer\Domainr\Status::description('inactive'); 
+\Privateer\Domainr\Status::description('inactive');
 // Available for new registration.
 
-\Privateer\Domainr\Status::available('inactive'); 
+\Privateer\Domainr\Status::available('inactive');
 // true
 ```
 ## Using with Laravel

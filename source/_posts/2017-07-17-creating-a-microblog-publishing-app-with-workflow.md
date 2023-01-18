@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2017-07-17
 title: Creating a Microblog publishing app with Workflow
+categories: [development]
 ---
 # Creating a Microblog publishing app with Workflow
 
@@ -73,7 +74,7 @@ php artisan tinker
 >>> $user = App\User::find(1);
 
 >>> $user->createToken('Workflow')->accessToken
-=> "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Im..." 
+=> "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6Im..."
 
 ```
 

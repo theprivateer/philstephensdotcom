@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2017-06-28
 title: Cross-posting to Twitter using Laravel Notifications
+categories: [development]
 ---
 # Cross-posting to Twitter using Laravel Notifications
 
@@ -75,7 +76,7 @@ class PostPublished extends Notification
         return [TwitterChannel::class];
     }
 
-    public function toTwitter($notifiable) 
+    public function toTwitter($notifiable)
     {
         return new TwitterStatusUpdate('Hey I just posted something');
     }
@@ -95,8 +96,8 @@ The final change we need to make is to update the `toTwitter` method in the `Pos
 2. If the post is more than 140 characters, I will truncate it and append a link back to the original post
 
 ```php
-public function toTwitter($notifiable) 
-{    
+public function toTwitter($notifiable)
+{
     if(strlen($notifiable->body) <= 140)
     {
         $post = $notifiable->body;
@@ -114,8 +115,8 @@ public function toTwitter($notifiable)
 The `TwitterStatusUpdate` class also has a method for adding images to tweets.  In the case of Shortform, my posts can optionally have a large featured/hero image as the subject (like Instagram), so in those cases I would also like to push the image across to be displayed natively in Twitter:
 
 ```php
-public function toTwitter($notifiable) 
-{    
+public function toTwitter($notifiable)
+{
     if(strlen($notifiable->body) <= 140)
     {
         $post = $notifiable->body;

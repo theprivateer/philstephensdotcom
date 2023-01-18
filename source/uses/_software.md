@@ -24,3 +24,7 @@ I've tried a large number of todo list apps over the years, but [Things](https:/
 When I need to focus on writing, whether its documentation for work or posts for my blog, I _love_ the understated power of [iA Writer](https://ia.net/writer).
 
 An honourable mention should go to [One Switch](/one-switch) - which I use on the daily to make my desktop more presentable for when I'm sharing my screen in Zoom calls.
+
+- Notes.app
+- Affinity suite (version 1)
+- Podcasts.app

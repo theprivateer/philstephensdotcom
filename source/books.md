@@ -7,7 +7,6 @@ title: Books
 
 ## Currently Reading
 
-* [Bad Debts](https://www.kobo.com/au/en/ebook/bad-debts-4) | Peter Temple
 * [Hyperfocus](https://www.kobo.com/au/en/ebook/hyperfocus-5) | Chris Bailey
 
 ## Books I've Read
@@ -16,6 +15,8 @@ title: Books
 
 #### 2023
 
+* [Tripwire](https://www.kobo.com/au/en/ebook/tripwire-4) | Lee Child
+* [Bad Debts](https://www.kobo.com/au/en/ebook/bad-debts-4) | Peter Temple
 * [Even Dogs in the Wild](https://www.kobo.com/au/en/ebook/even-dogs-in-the-wild) | Ian Rankin
 
 #### 2022
@@ -38,7 +39,7 @@ title: Books
 
 #### 2022
 
-* [Make Time](https://www.kobo.com/au/en/ebook/make-time-2)| Jake Knapp & John Zeratsky
+* [Make Time](https://www.kobo.com/au/en/ebook/make-time-2) | Jake Knapp & John Zeratsky
 * [The Miracle Morning](https://www.kobo.com/au/en/ebook/the-miracle-morning) | Hal Elrod
 
 #### 2021
@@ -86,6 +87,5 @@ title: Books
 
 ## Want to Read
 
-* [Tripwire](https://www.kobo.com/au/en/ebook/tripwire-4) | Lee Child
 * [Everything](https://sive.rs/#mybooks) by Derek Sivers
 * [Blueprint](https://www.kobo.com/au/en/ebook/blueprint-build-a-bulletproof-body-for-extreme-adventure-in-365-days) | Ross Edgley

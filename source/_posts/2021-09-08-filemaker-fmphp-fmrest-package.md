@@ -1,8 +1,9 @@
 ---
-extends: _layouts.dev
+extends: _layouts.post
 section: content
 date: 2021-09-08
 title: "New Package: FileMaker PHP and FMREST library"
+categories: [development]
 ---
 # New Package: FileMaker PHP and FMREST library
 
@@ -70,7 +71,7 @@ $body = json_decode($response->getBody());
 $token = $body->response->token;
 
 // Make the actual query
-$response = $client->request('POST', 'layouts/users/_find', 
+$response = $client->request('POST', 'layouts/users/_find',
 					[
 						'headers' => [
 							'Authorization' => 'Bearer ' . $token,
@@ -81,7 +82,7 @@ $response = $client->request('POST', 'layouts/users/_find',
 							    {"email": "==phils@hey.com"}
 						    ]
 						}
-					]);	
+					]);
 
 $body = json_decode($response->getBody());
 
