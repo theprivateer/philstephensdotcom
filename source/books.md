@@ -7,6 +7,7 @@ title: Books
 
 ## Currently Reading
 
+* [The Thursday Murder Club](https://www.kobo.com/au/en/ebook/the-thursday-murder-club) | Richard Osman
 * [Hyperfocus](https://www.kobo.com/au/en/ebook/hyperfocus-5) | Chris Bailey
 
 ## Books I've Read
