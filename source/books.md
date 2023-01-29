@@ -7,7 +7,7 @@ title: Books
 
 ## Currently Reading
 
-* [The Thursday Murder Club](https://www.kobo.com/au/en/ebook/the-thursday-murder-club) | Richard Osman
+* [Let Go](https://www.kobo.com/au/en/ebook/let-go-23) | Hugh van Cuylenburg
 * [Hyperfocus](https://www.kobo.com/au/en/ebook/hyperfocus-5) | Chris Bailey
 
 ## Books I've Read
@@ -16,6 +16,7 @@ title: Books
 
 #### 2023
 
+* [The Thursday Murder Club](https://www.kobo.com/au/en/ebook/the-thursday-murder-club) | Richard Osman
 * [Tripwire](https://www.kobo.com/au/en/ebook/tripwire-4) | Lee Child
 * [Bad Debts](https://www.kobo.com/au/en/ebook/bad-debts-4) | Peter Temple
 * [Even Dogs in the Wild](https://www.kobo.com/au/en/ebook/even-dogs-in-the-wild) | Ian Rankin
