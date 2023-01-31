@@ -9,24 +9,24 @@ return [
     'rssTitle' => 'Phil Stephens - All Articles',
     'description' => "Hi, I'm a cyclist and creative software developer.",
     'siteLanguage' => 'en',
-    'collections' => [
-        'posts' => [
-            'author' => 'Phil Stephens',
-            'sort' => '-date',
-            'path' => function ($page) {
-                $slug = Str::slug($page->getFilename());
+    // 'collections' => [
+    //     'posts' => [
+    //         'author' => 'Phil Stephens',
+    //         'sort' => '-date',
+    //         'path' => function ($page) {
+    //             $slug = Str::slug($page->getFilename());
 
-                if (substr($slug, 0, 2) == '20' && substr($slug, 4, 1) == '-') {
-                    return substr($slug, 11);
-                }
+    //             if (substr($slug, 0, 2) == '20' && substr($slug, 4, 1) == '-') {
+    //                 return substr($slug, 11);
+    //             }
 
-                return $slug;
-            },
-            'filter' => function ($item) {
-                return $item->date;
-            },
-        ],
-    ],
+    //             return $slug;
+    //         },
+    //         'filter' => function ($item) {
+    //             return $item->date;
+    //         },
+    //     ],
+    // ],
     // helpers
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
