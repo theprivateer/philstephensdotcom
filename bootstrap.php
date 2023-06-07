@@ -16,5 +16,5 @@ use TightenCo\Jigsaw\Jigsaw;
  * });
  */
 
-// $events->afterBuild(App\Listeners\GenerateSitemap::class);
-// $events->afterBuild(App\Listeners\PublishHiddenFiles::class);
+$events->afterBuild(App\Listeners\GenerateSitemap::class);
+$events->afterBuild(App\Listeners\PublishHiddenFiles::class);

@@ -33,25 +33,24 @@
             @yield('body')
 
             <section class="footer">
-                <ul class="col-25">
+            {{--     <ul class="col-25">
                     <li><a href="{{ $page->baseUrl }}/blog">Blog Articles</a></li>
                     <li><a href="{{ $page->baseUrl }}/books">Reading List</a></li>
                 </ul>
 
                 <ul class="col-50">
-                    {{-- <li><a href="{{ $page->baseUrl }}/ways-i-m-available-to-help">Ways I'm Available to Help</a></li> --}}
                     <li><a href="{{ $page->baseUrl }}/contact">Contact Me</a></li>
                 </ul>
 
                 <ul class="col-25">
                     <li><a href="{{ $page->baseUrl }}/now">Now</a></li>
                     <li><a href="{{ $page->baseUrl }}/uses">Uses</a></li>
-                </ul>
+                </ul> --}}
             </section>
 
             <section class="copyright">
                 <p>&copy; {{ date('Y') }} Phil Stephens</p>
-                <p><a href="{{ $page->baseUrl }}/rss.xml">RSS</a></p>
+                {{-- <p><a href="{{ $page->baseUrl }}/rss.xml">RSS</a></p> --}}
             </section>
         </main>
         @section('scripts')

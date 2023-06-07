@@ -17,7 +17,6 @@ Over the past 15+ years I've worked with some great (and some not-so-great) peop
 ## Ways I’m available to help underrepresented people in tech
 
 - Everything above, _I’ll especially do for you_
-- [Connect on LinkedIn](https://www.linkedin.com/in/phil-stephens/)
 - Help you find some job opportunities
 - [Validate your business idea](/validating-your-business-idea) and/or join your advisory board
 - Review a conference proposal

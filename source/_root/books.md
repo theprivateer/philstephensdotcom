@@ -7,6 +7,8 @@ title: Books
 
 ## Currently Reading
 
+* [Blueprint](https://www.kobo.com/au/en/ebook/blueprint-build-a-bulletproof-body-for-extreme-adventure-in-365-days) | Ross Edgley
+* [The Atlas Six](https://www.kobo.com/au/en/ebook/the-atlas-six-the-atlas-book-1) | Olivie Blake
 * [Let Go](https://www.kobo.com/au/en/ebook/let-go-23) | Hugh van Cuylenburg
 * [Hyperfocus](https://www.kobo.com/au/en/ebook/hyperfocus-5) | Chris Bailey
 
@@ -16,6 +18,11 @@ title: Books
 
 #### 2023
 
+* [Caliban's War](https://www.kobo.com/au/en/ebook/caliban-s-war-1) | James S. A. Corey
+* [The Peripheral](https://www.kobo.com/au/en/ebook/the-peripheral-2) | William Gibson
+* [The Man Who Died Twice](https://www.kobo.com/au/en/ebook/the-man-who-died-twice-6) | Richard Osman
+* [Leviathan Wakes](https://www.kobo.com/au/en/ebook/leviathan-wakes-1) | James S. A. Corey
+* [Caves of Steel](https://www.kobo.com/au/en/ebook/caves-of-steel) | Isaac Asimov
 * [The Thursday Murder Club](https://www.kobo.com/au/en/ebook/the-thursday-murder-club) | Richard Osman
 * [Tripwire](https://www.kobo.com/au/en/ebook/tripwire-4) | Lee Child
 * [Bad Debts](https://www.kobo.com/au/en/ebook/bad-debts-4) | Peter Temple
@@ -90,4 +97,4 @@ title: Books
 ## Want to Read
 
 * [Everything](https://sive.rs/#mybooks) by Derek Sivers
-* [Blueprint](https://www.kobo.com/au/en/ebook/blueprint-build-a-bulletproof-body-for-extreme-adventure-in-365-days) | Ross Edgley
+* [Agency](https://www.kobo.com/au/en/ebook/agency-11) | William Gibson

@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="shortcut icon" href="{{ $page->baseUrl }}/assets/img/favicon.png">
 
-        <title>AFK</title>
+        <title>Phil Stephens</title>
 
         <style>
             svg
