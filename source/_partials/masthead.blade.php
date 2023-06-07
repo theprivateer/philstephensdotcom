@@ -1,4 +1,4 @@
-<a href="{{ $page->baseUrl }}/" class="masthead">
+<a href="{{ $page->baseUrl }}/blog" class="masthead">
     <svg xmlns="http://www.w3.org/2000/svg" width="23" height="32" fill="currentColor" viewBox="0 0 233 320" >
         <g transform="matrix(1,0,0,1,-1.0608,-1.85537)">
             <g transform="matrix(4.16667,0,0,4.16667,-148.94,-3122.08)">
