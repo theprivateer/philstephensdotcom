@@ -10,12 +10,37 @@
         <title>Phil Stephens</title>
 
         <style>
-            svg
-            {
+            @import url(https://fonts.bunny.net/css?family=aleo:300,300i,700,700i);
+
+            body {
+                font-size: 1.2rem;
+                font-family: 'Aleo', serif;
+            }
+
+            svg {
                 position: absolute;
                 left: 50%;
                 top: 50%;
                 transform: translate(-50%, -50%);
+            }
+
+            p {
+                position: absolute;
+                left: 50%;
+                bottom: 0;
+                transform: translate(-50%, -50%);
+            }
+
+            p > a {
+                display: inline-block;
+                margin: 0 auto;
+                padding: 0.25rem 0.75rem;
+                border: 1px solid rgba(0,0,0,0.1);
+                border-radius: 9999px;
+                font-style: italic;
+                font-size: 1rem;
+                color: black;
+                text-decoration: none;
             }
         </style>
     </head>
@@ -27,5 +52,9 @@
                     </g>
                 </g>
             </svg>
+
+            <p>
+                <a href="/blog">Blog Archive</a>
+            </p>
     </body>
 </html>
