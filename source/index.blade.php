@@ -24,14 +24,19 @@
                 transform: translate(-50%, -50%);
             }
 
-            p {
+            .links {
                 position: absolute;
                 left: 50%;
                 bottom: 0;
                 transform: translate(-50%, -50%);
             }
 
-            p > a {
+            .links p {
+                margin-bottom: 10px;
+                text-align: center;
+            }
+
+            .links p > a {
                 display: inline-block;
                 margin: 0 auto;
                 padding: 0.25rem 0.75rem;
@@ -53,8 +58,14 @@
                 </g>
             </svg>
 
-            <p>
-                <a href="/blog">Blog Archive</a>
-            </p>
+            <div class="links">
+                <p>
+                    <a href="https://philstephens.omg.lol">About & Contact</a>
+                </p>
+
+                <p>
+                    <a href="/blog">Blog Archive</a>
+                </p>
+            </div>
     </body>
 </html>

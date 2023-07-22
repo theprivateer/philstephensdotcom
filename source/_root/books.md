@@ -7,6 +7,7 @@ title: Books
 
 ## Currently Reading
 
+* [Abaddon's Gate](https://www.kobo.com/au/en/ebook/abaddon-s-gate-1) | James S. A. Corey
 * [Blueprint](https://www.kobo.com/au/en/ebook/blueprint-build-a-bulletproof-body-for-extreme-adventure-in-365-days) | Ross Edgley
 * [The Atlas Six](https://www.kobo.com/au/en/ebook/the-atlas-six-the-atlas-book-1) | Olivie Blake
 * [Let Go](https://www.kobo.com/au/en/ebook/let-go-23) | Hugh van Cuylenburg
@@ -98,3 +99,4 @@ title: Books
 
 * [Everything](https://sive.rs/#mybooks) by Derek Sivers
 * [Agency](https://www.kobo.com/au/en/ebook/agency-11) | William Gibson
+* [An Elegant Puzzle](https://www.kobo.com/au/en/ebook/an-elegant-puzzle) | Will Larson
