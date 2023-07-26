@@ -49,7 +49,7 @@
             </section>
 
             <section class="copyright">
-                <p>&copy; {{ date('Y') }} Phil Stephens</p>
+                <p>&copy; 2017 - 2022 Phil Stephens</p>
                 {{-- <p><a href="{{ $page->baseUrl }}/rss.xml">RSS</a></p> --}}
             </section>
         </main>
