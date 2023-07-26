@@ -2,5 +2,5 @@
 
 return [
     'production' => true,
-    'baseUrl' => 'https://philstephens.com',
+    'baseUrl' => 'https://archive.philstephens.com',
 ];
