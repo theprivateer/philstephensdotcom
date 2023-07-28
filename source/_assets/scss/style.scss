@@ -145,8 +145,10 @@ h2, h3, h4, h5
 
 .masthead
 {
-    display: inline-block;
+    display: flex;
     margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul
