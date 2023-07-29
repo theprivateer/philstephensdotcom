@@ -55,5 +55,9 @@
         </main>
         @section('scripts')
         @show
+
+        @if ($page->production)
+            <script src="https://tinylytics.app/embed/3xyAFtoF71eNvV9BNxo8.js" defer></script>
+        @endif
     </body>
 </html>
